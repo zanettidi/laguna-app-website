@@ -1,6 +1,15 @@
-<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <rect width="64" height="64" rx="14" fill="#260D33"/>
-  <path d="M12 42c5-4 10-4 15 0s10 4 15 0 10-4 15 0" stroke="#B3ACA4" stroke-width="3" stroke-linecap="round" fill="none"/>
-  <path d="M12 32c5-4 10-4 15 0s10 4 15 0 10-4 15 0" stroke="#157A8C" stroke-width="3" stroke-linecap="round" fill="none"/>
-  <path d="M12 22c5-4 10-4 15 0s10 4 15 0 10-4 15 0" stroke="#106B87" stroke-width="3" stroke-linecap="round" fill="none"/>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Laguna Systems">
+  <defs>
+    <linearGradient id="fav-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#003F69"/>
+      <stop offset="1" stop-color="#260D33"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#fav-bg)"/>
+  <!-- Lagoa aérea: anéis concêntricos abertos -->
+  <g transform="rotate(-45 32 32)" fill="none" stroke-linecap="round">
+    <circle cx="32" cy="32" r="21" stroke="#106B87" stroke-width="4.5" stroke-dasharray="99 33"/>
+    <circle cx="32" cy="32" r="12.5" stroke="#157A8C" stroke-width="4.5" stroke-dasharray="59 20"/>
+  </g>
+  <circle cx="32" cy="32" r="6" fill="#B3ACA4"/>
 </svg>
