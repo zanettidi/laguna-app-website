@@ -1,0 +1,10 @@
+<svg width="240" height="56" viewBox="0 0 240 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Laguna Systems">
+  <g>
+    <circle cx="28" cy="28" r="26" fill="#157A8C"/>
+    <path d="M8 34c4-3 8-3 12 0s8 3 12 0 8-3 12 0" stroke="#260D33" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+    <path d="M8 26c4-3 8-3 12 0s8 3 12 0 8-3 12 0" stroke="#B3ACA4" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+    <path d="M8 18c4-3 8-3 12 0s8 3 12 0 8-3 12 0" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  </g>
+  <text x="64" y="27" font-family="'Poppins','Segoe UI',sans-serif" font-size="22" font-weight="700" fill="#ffffff">Laguna</text>
+  <text x="64" y="45" font-family="'Poppins','Segoe UI',sans-serif" font-size="13" font-weight="500" letter-spacing="4" fill="#B3ACA4">SYSTEMS</text>
+</svg>

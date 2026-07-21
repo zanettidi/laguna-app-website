@@ -1,0 +1,87 @@
+<svg width="620" height="500" viewBox="0 0 620 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Painel de gestão Laguna Systems">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#157A8C"/>
+      <stop offset="1" stop-color="#003F69"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3f6f8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#260D33" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- Soft blob background -->
+  <path d="M120 60C220 20 380 10 470 70s110 190 60 280-230 120-340 80S20 380 30 270 20 100 120 60Z" fill="url(#bg)" opacity="0.12"/>
+
+  <!-- Main dashboard card -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="70" width="440" height="300" rx="18" fill="url(#screen)"/>
+    <!-- Top bar -->
+    <rect x="90" y="70" width="440" height="46" rx="18" fill="#260D33"/>
+    <rect x="90" y="98" width="440" height="18" fill="#260D33"/>
+    <circle cx="116" cy="93" r="5" fill="#157A8C"/>
+    <circle cx="134" cy="93" r="5" fill="#B3ACA4"/>
+    <circle cx="152" cy="93" r="5" fill="#106B87"/>
+    <rect x="360" y="86" width="150" height="14" rx="7" fill="#3a2450"/>
+
+    <!-- Sidebar -->
+    <rect x="90" y="116" width="96" height="254" fill="#f0edf2"/>
+    <rect x="106" y="138" width="64" height="10" rx="5" fill="#157A8C"/>
+    <rect x="106" y="164" width="64" height="8" rx="4" fill="#c9cdd2"/>
+    <rect x="106" y="184" width="64" height="8" rx="4" fill="#c9cdd2"/>
+    <rect x="106" y="204" width="64" height="8" rx="4" fill="#c9cdd2"/>
+    <rect x="106" y="224" width="64" height="8" rx="4" fill="#c9cdd2"/>
+
+    <!-- KPI cards -->
+    <rect x="202" y="134" width="94" height="60" rx="10" fill="#106B87"/>
+    <rect x="214" y="150" width="40" height="8" rx="4" fill="#ffffff" opacity="0.7"/>
+    <rect x="214" y="166" width="58" height="14" rx="4" fill="#ffffff"/>
+    <rect x="308" y="134" width="94" height="60" rx="10" fill="#157A8C"/>
+    <rect x="320" y="150" width="40" height="8" rx="4" fill="#ffffff" opacity="0.7"/>
+    <rect x="320" y="166" width="58" height="14" rx="4" fill="#ffffff"/>
+    <rect x="414" y="134" width="94" height="60" rx="10" fill="#003F69"/>
+    <rect x="426" y="150" width="40" height="8" rx="4" fill="#ffffff" opacity="0.7"/>
+    <rect x="426" y="166" width="58" height="14" rx="4" fill="#ffffff"/>
+
+    <!-- Chart -->
+    <rect x="202" y="210" width="180" height="146" rx="10" fill="#ffffff" stroke="#e6e2ea"/>
+    <polyline points="216,330 250,300 284,312 318,272 352,286 372,250" fill="none" stroke="#157A8C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="318" cy="272" r="4" fill="#106B87"/>
+    <circle cx="372" cy="250" r="4" fill="#106B87"/>
+    <rect x="216" y="226" width="70" height="8" rx="4" fill="#260D33"/>
+
+    <!-- Agenda list -->
+    <rect x="396" y="210" width="112" height="146" rx="10" fill="#ffffff" stroke="#e6e2ea"/>
+    <rect x="408" y="224" width="60" height="8" rx="4" fill="#260D33"/>
+    <g>
+      <circle cx="414" cy="250" r="6" fill="#157A8C"/>
+      <rect x="428" y="246" width="66" height="7" rx="3.5" fill="#d3d7db"/>
+      <circle cx="414" cy="276" r="6" fill="#106B87"/>
+      <rect x="428" y="272" width="66" height="7" rx="3.5" fill="#d3d7db"/>
+      <circle cx="414" cy="302" r="6" fill="#003F69"/>
+      <rect x="428" y="298" width="66" height="7" rx="3.5" fill="#d3d7db"/>
+      <circle cx="414" cy="328" r="6" fill="#B3ACA4"/>
+      <rect x="428" y="324" width="66" height="7" rx="3.5" fill="#d3d7db"/>
+    </g>
+  </g>
+
+  <!-- Floating notification card -->
+  <g filter="url(#shadow)">
+    <rect x="420" y="330" width="150" height="70" rx="14" fill="#ffffff"/>
+    <circle cx="450" cy="365" r="18" fill="#157A8C"/>
+    <path d="M443 365l5 5 9-10" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="478" y="352" width="78" height="9" rx="4.5" fill="#260D33"/>
+    <rect x="478" y="368" width="60" height="8" rx="4" fill="#B3ACA4"/>
+  </g>
+
+  <!-- Floating chat bubble (WhatsApp/email reminder) -->
+  <g filter="url(#shadow)">
+    <rect x="52" y="150" width="120" height="66" rx="14" fill="#106B87"/>
+    <rect x="70" y="170" width="84" height="8" rx="4" fill="#ffffff" opacity="0.9"/>
+    <rect x="70" y="186" width="60" height="8" rx="4" fill="#ffffff" opacity="0.6"/>
+    <path d="M78 216l-8 14 22-8Z" fill="#106B87"/>
+  </g>
+</svg>

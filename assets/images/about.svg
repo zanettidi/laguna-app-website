@@ -1,0 +1,45 @@
+<svg width="520" height="440" viewBox="0 0 520 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Clínicas, consultórios e salões de beleza">
+  <defs>
+    <linearGradient id="ag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#106B87"/>
+      <stop offset="1" stop-color="#260D33"/>
+    </linearGradient>
+    <filter id="s2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#260D33" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <circle cx="260" cy="220" r="200" fill="url(#ag)" opacity="0.10"/>
+
+  <!-- Health card -->
+  <g filter="url(#s2)">
+    <rect x="60" y="80" width="200" height="150" rx="18" fill="#ffffff"/>
+    <circle cx="110" cy="130" r="26" fill="#157A8C" opacity="0.15"/>
+    <!-- medical cross -->
+    <rect x="102" y="118" width="16" height="40" rx="4" fill="#157A8C"/>
+    <rect x="90" y="130" width="40" height="16" rx="4" fill="#157A8C"/>
+    <rect x="150" y="112" width="90" height="12" rx="6" fill="#260D33"/>
+    <rect x="150" y="132" width="70" height="9" rx="4.5" fill="#B3ACA4"/>
+    <rect x="80" y="180" width="160" height="9" rx="4.5" fill="#e2dee6"/>
+    <rect x="80" y="198" width="120" height="9" rx="4.5" fill="#e2dee6"/>
+  </g>
+
+  <!-- Beauty card -->
+  <g filter="url(#s2)">
+    <rect x="255" y="205" width="200" height="150" rx="18" fill="#ffffff"/>
+    <circle cx="305" cy="255" r="26" fill="#106B87" opacity="0.15"/>
+    <!-- scissors / beauty motif -->
+    <circle cx="298" cy="262" r="6" fill="none" stroke="#106B87" stroke-width="3"/>
+    <circle cx="298" cy="248" r="6" fill="none" stroke="#106B87" stroke-width="3"/>
+    <path d="M303 258l16-14M303 252l16 14" stroke="#106B87" stroke-width="3" stroke-linecap="round"/>
+    <rect x="345" y="237" width="90" height="12" rx="6" fill="#260D33"/>
+    <rect x="345" y="257" width="70" height="9" rx="4.5" fill="#B3ACA4"/>
+    <rect x="275" y="305" width="160" height="9" rx="4.5" fill="#e2dee6"/>
+    <rect x="275" y="323" width="120" height="9" rx="4.5" fill="#e2dee6"/>
+  </g>
+
+  <!-- connecting nodes -->
+  <circle cx="260" cy="185" r="10" fill="#157A8C"/>
+  <path d="M180 155q80 30 80 30" stroke="#157A8C" stroke-width="2" stroke-dasharray="4 5" fill="none"/>
+  <path d="M260 185q40 30 95 30" stroke="#106B87" stroke-width="2" stroke-dasharray="4 5" fill="none"/>
+</svg>

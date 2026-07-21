@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.title.contact">Contactos — Laguna Systems</title>
+  <meta name="description" data-i18n="meta.description" content="Laguna Systems: sistema de informatização e gestão para pequenas e médias empresas da saúde e beleza. Agenda, clientes, stock, financeiro e mais." />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="section-tag" data-i18n="contact.tag">Contactos</span>
+        <h1 data-i18n="contact.title">Vamos agendar a sua demonstração</h1>
+        <p data-i18n="contact.subtitle">Fale connosco pelos canais abaixo e mostramos-lhe tudo o que o Laguna Systems pode fazer.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <a class="contact-card" href="tel:+351000000000">
+            <svg class="ic"><use href="#i-phone"/></svg>
+            <h3 data-i18n="contact.phone">Telefone</h3>
+            <p>+351 000 000 000</p>
+          </a>
+          <a class="contact-card" href="https://wa.me/351000000000" target="_blank" rel="noopener">
+            <svg class="ic"><use href="#i-whatsapp"/></svg>
+            <h3>WhatsApp</h3>
+            <p data-i18n="contact.whatsapp">Envie-nos uma mensagem</p>
+          </a>
+          <a class="contact-card" href="https://facebook.com/lagunasystems" target="_blank" rel="noopener">
+            <svg class="ic"><use href="#i-facebook"/></svg>
+            <h3>Facebook</h3>
+            <p>/lagunasystems</p>
+          </a>
+          <a class="contact-card" href="https://instagram.com/lagunasystems" target="_blank" rel="noopener">
+            <svg class="ic"><use href="#i-instagram"/></svg>
+            <h3>Instagram</h3>
+            <p>@lagunasystems</p>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <label>
+              <span data-i18n="form.name">Nome</span>
+              <input type="text" name="name" required data-i18n-ph="form.name.ph" placeholder="O seu nome" />
+            </label>
+            <label>
+              <span data-i18n="form.email">E-mail</span>
+              <input type="email" name="email" required data-i18n-ph="form.email.ph" placeholder="email@exemplo.com" />
+            </label>
+          </div>
+          <label>
+            <span data-i18n="form.business">Tipo de negócio</span>
+            <input type="text" name="business" data-i18n-ph="form.business.ph" placeholder="Clínica, consultório, salão..." />
+          </label>
+          <label>
+            <span data-i18n="form.message">Mensagem</span>
+            <textarea name="message" rows="4" data-i18n-ph="form.message.ph" placeholder="Conte-nos sobre o seu negócio"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary" data-i18n="form.submit">Pedir demonstração</button>
+          <p class="form-note" id="form-note" hidden data-i18n="form.success">Obrigado! A sua mensagem foi preparada — vamos entrar em contacto.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Logs / temporários
+*.log
+node_modules/
+
+# Servidor local de desenvolvimento
+.server.pid
+.server.log
