@@ -57,8 +57,8 @@
   /* ---------- Dados de contacto (fonte única) ---------- */
   var SOCIAL = {
     facebook:  "https://facebook.com/lagunasystems",
-    instagram: "https://instagram.com/lagunasystems",
-    whatsapp:  "https://wa.me/351000000000"
+    instagram: "https://www.instagram.com/lagunasystems",
+    whatsapp:  "https://wa.me/351964947905"
   };
 
   /* ---------- Construção do cabeçalho ---------- */
