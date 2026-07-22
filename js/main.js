@@ -105,7 +105,7 @@
         "Negócio: " + (data.get("business") || "") + "\n\n" +
         (data.get("message") || "")
       );
-      window.location.href = "mailto:geral@lagunasystems.com?subject=" + subject + "&body=" + body;
+      window.location.href = "mailto:laguna.systems.sft@gmail.com?subject=" + subject + "&body=" + body;
       if (note) note.hidden = false;
       form.reset();
     });
